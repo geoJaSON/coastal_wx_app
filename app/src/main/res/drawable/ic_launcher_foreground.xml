@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Sun: warm outer glow + brighter inner disc, sits upper-left so the cloud overlaps it -->
+    <path android:pathData="M22,38 a18,18 0 1,0 36,0 a18,18 0 1,0 -36,0 z"
+          android:fillColor="#FFE7A3" />
+    <path android:pathData="M26,38 a14,14 0 1,0 28,0 a14,14 0 1,0 -28,0 z"
+          android:fillColor="#FFD06A" />
+
+    <!-- Cloud, drawn as overlapping circles + a soft base bar for a puffy silhouette -->
+    <!-- left bump -->
+    <path android:pathData="M30,55 a10,10 0 1,0 20,0 a10,10 0 1,0 -20,0 z"
+          android:fillColor="#FFFFFF" />
+    <!-- tall center bump -->
+    <path android:pathData="M44,48 a13,13 0 1,0 26,0 a13,13 0 1,0 -26,0 z"
+          android:fillColor="#FFFFFF" />
+    <!-- right bump -->
+    <path android:pathData="M62,54 a10,10 0 1,0 20,0 a10,10 0 1,0 -20,0 z"
+          android:fillColor="#FFFFFF" />
+    <!-- soft cloud base (rectangle with rounded ends via two small circles) -->
+    <path android:pathData="M32,55 L82,55 L82,65 L32,65 Z"
+          android:fillColor="#FFFFFF" />
+    <path android:pathData="M27,60 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0 z"
+          android:fillColor="#FFFFFF" />
+    <path android:pathData="M77,60 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0 z"
+          android:fillColor="#FFFFFF" />
+
+    <!-- Cloud underside shadow tint, gives a hint of depth -->
+    <path android:pathData="M30,62 L82,62 L82,65 L30,65 Z"
+          android:fillColor="#22000000" />
+
+    <!-- Two thin water highlights between cloud and beach -->
+    <path android:pathData="M12,76 Q30,72 48,76 T84,76 T106,75"
+          android:strokeColor="#D8ECF5"
+          android:strokeWidth="2.4"
+          android:strokeLineCap="round"
+          android:fillColor="#00000000" />
+    <path android:pathData="M16,84 Q34,80 52,84 T86,84"
+          android:strokeColor="#D8ECF5"
+          android:strokeWidth="2.0"
+          android:strokeLineCap="round"
+          android:fillColor="#00000000" />
+
+    <!-- Sandy beach, gentle nearly-flat curve evoking the long Galveston shoreline -->
+    <path android:pathData="M-4,93 Q54,88 112,93 L112,112 L-4,112 Z"
+          android:fillColor="#EAC576" />
+    <!-- Wet-sand band where water meets beach -->
+    <path android:pathData="M-4,93 Q54,88 112,93 L112,96 Q54,91 -4,96 Z"
+          android:fillColor="#C9A35A" />
+</vector>

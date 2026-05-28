@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(findstr /I \"keystore jks\")",
+      "Bash(cmd /c \"dir /b c:\\\\Users\\\\jason\\\\Documents\\\\Dev\\\\aeroweather\\\\*.jks c:\\\\Users\\\\jason\\\\Documents\\\\Dev\\\\aeroweather\\\\*.keystore 2>nul\")",
+      "Bash(cmd /c \"cd /d c:\\\\Users\\\\jason\\\\Documents\\\\Dev\\\\aeroweather && gradlew.bat :app:packageRelease --no-daemon\")",
+      "Bash(cmd /c \"mkdir c:\\\\Users\\\\jason\\\\Documents\\\\Dev\\\\aeroweather\\\\scripts 2>nul & dir /b c:\\\\Users\\\\jason\\\\Documents\\\\Dev\\\\aeroweather\\\\scripts\")",
+      "Bash(cmd /c \"if exist c:\\\\Users\\\\jason\\\\Documents\\\\Dev\\\\aeroweather\\\\.gitignore \\(type c:\\\\Users\\\\jason\\\\Documents\\\\Dev\\\\aeroweather\\\\.gitignore\\) else \\(echo NO_GITIGNORE\\)\")",
+      "Bash(cmd /c \"dir /a /b c:\\\\Users\\\\jason\\\\Documents\\\\Dev\\\\aeroweather\\\\.gitignore 2>nul\")"
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Coastal WX",
+  "description": "A minimalist, real-time meteorological application featuring live forecasts, severe alerts, and a detailed Hurricane and Tropical Storm tracker.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

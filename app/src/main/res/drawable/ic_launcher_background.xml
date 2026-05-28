@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Sky-to-water vertical gradient.
+         Top: warm peach sunset. Mid: deep gulf orange. Bottom: gulf water blue. -->
+    <path android:pathData="M0,0 L108,0 L108,108 L0,108 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="54"
+                android:startY="0"
+                android:endX="54"
+                android:endY="108">
+                <item android:offset="0.00" android:color="#FFCB91" />
+                <item android:offset="0.25" android:color="#F7A06D" />
+                <item android:offset="0.50" android:color="#D26B4E" />
+                <item android:offset="0.68" android:color="#5A8AAB" />
+                <item android:offset="1.00" android:color="#143E5E" />
+            </gradient>
+        </aapt:attr>
+    </path>
+</vector>
