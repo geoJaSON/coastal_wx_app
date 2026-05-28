@@ -19,7 +19,6 @@ No Google Play Services, no Firebase, no analytics, no telemetry. Device locatio
 1. Open the project in Android Studio and let it import.
 2. Create a `.env` file in the project root with your Tomorrow.io key:
    ```
-   GEMINI_API_KEY=ignored
    TOMORROW_API_KEY=your_key_here
    ```
    The key is loaded via the Secrets Gradle plugin, but you'll set it again at runtime inside Settings (it's stored in `EncryptedSharedPreferences` keyed to the device).
